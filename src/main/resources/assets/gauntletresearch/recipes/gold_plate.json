@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ggg"
+    ],
+    "key":
+    {
+        "g":
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result":
+    {
+        "item": "gauntletresearch:gold_plate",
+        "count": 3
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "gauntletresearch",
+  "name": "Gauntlet Research",
+  "description": "Thaumcraft addon to make the Caster's Gauntlet more interesting.",
+  "version": "1.0.3",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Sheenus"],
+  "credits": "Azanor, for making Thaumcraft; DidYouIronTheCat for taking care of the Thaumcraft RP Server. Kookyboy9, for help getting me on my feet with coding, and for other coding assistance",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": ["Thaumcraft", "Thaumcraft 6 Enhanced Patcher"]
+}
+]

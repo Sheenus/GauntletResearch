@@ -1,0 +1,56 @@
+//items
+item.gold_plate.name=Gold Plate
+
+item.components.gold.name=Gold Gauntlet Components
+item.components.thaumium.name=Thaumium Gauntlet Components
+item.components.void_metal.name=Void Metal Gauntlet Components
+item.components_activated.thaumium.name=Activated Thaumium Components
+item.components_activated.void_metal.name=Activated Void Metal Components
+
+item.resonator.gold.name=Gold Resonator
+item.resonator.thaumium.name=Thaumium Resonator
+item.resonator.void_metal.name=Void Metal Resonator
+item.resonator_activated.thaumium.name=Activated Thaumium Resonator
+item.resonator_activated.void_metal.name=Activated Void Metal Resonator
+
+item.gold_caster.name=Gold Caster's Gauntlet
+item.thaumium_caster.name=Thaumium Caster's Gauntlet
+item.void_metal_caster.name=Void Metal Caster's Gauntlet
+
+//Research
+tc.research_category.GAUNTLETRESEARCH=Gauntlet Research
+
+research.GOLDCASTERGAUNTLETS.title=Further Gauntlet Research
+research.GOLDCASTERGAUNTLETS.stage.1=Having now tested and analysed this ironbound casting gauntlet, I can see plenty of room for improvement.<BR>Gold is normally quite an enchantable metal; though soft and not quite as durable as iron, it is capable of holding significant enchantment. Experimentation with this metal should be my first recourse.
+research.GOLDCASTERGAUNTLETS.stage.2=Gold does indeed channel vis quite well, however not as well as I had hoped. It is also too soft to use as external fittings for the gauntlet; I will still have to rely on iron coverings for external parts, to protect the softer metal. I will likely have to experiment with different types of designs for the internal parts of the gauntlet using both metals, until I find something that works.
+research.GOLDCASTERGAUNTLETS.stage.3=It has taken quite some toiling, trying all sorts of different dimensions and measurements to see what works and what works well, but I think I have worked out an optimum set of designs for a set of complex internal components that will better channel the vis flowing from the resonator, through the gauntlet. My first design still seems to have room for improvement, but that will likely only come with better materials to work with.<BR>Using the Arcane Workbench, I can magically attune the gold as I work it to have the vis flow easier through the metal, meaning that the spell costs less to cast once the gauntlet is assembled. As I said before, iron is required to finish it, but this impedes the gold little; the vis appears to take the path of least resistance. However there is some small, but noticeable drop off in energy from channelling to cast.<BR>I have upgraded the physical glove too; lining the glove in a thick layer of enchanted cloth makes it quite comfortable to wear.<BR>Combining all this, with a standard Vis Resonator in slightly modified configuration to before, should yield a much more vis-efficient gauntlet.<BR>For future reference, should I continue research into more effective gauntlets, all I should need to construct one should be the Leather and Enchanted Fabric to bind the glove, and then whichever Components and vis resonator I so choose in their respective spots, and finally a Thaumometer to gauge the local aura.
+research.GOLDCASTERGAUNTLETS.addendum.1=I should now be able to use Gold and Activated Thaumium Resonators in my Gold Caster Gauntlets, as opposed to regular iron Vis Resonators. Why I'd bother is another matter entirely...
+research.GOLDCASTERGAUNTLETS.addendum.2=I should now also be able to use Activated Void Metal Resonators in my Gold Caster Gauntlets, but I can't think of a reason why when I can make far better gauntlets now anyway.
+
+research.THAUMIUMCASTERGAUNTLETS.title=Thaumium Caster's Gauntlets
+research.THAUMIUMCASTERGAUNTLETS.stage.1=Having discovered how to make Alchemical Brass and Thaumium, I should see how these materials fare when used as components within a caster's gauntlet. For now, I'll attempt it using the same designs as for the gold components.
+research.THAUMIUMCASTERGAUNTLETS.stage.2=My Experiments have shown interesting, some would even say exciting, results; the thaumium components appear to channel vis even better than the gold, at least on its own. The brass however is a completely different story; It's even more magically inert than iron; The spells channelled through the brass have difficulty activating. However, this may ultimately make it a better external cladding and support metal than iron.<BR>I should attempt to craft a set of Thaumium Gauntlet Components, using Alchemical Brass in the same way I was using iron with gold; the result should ultimately be more efficient than my previous iron-clad efforts. 
+research.THAUMIUMCASTERGAUNTLETS.stage.3=It would seem that, while the thaumium components perform admirably, they still fall short of what I believe to be their full potential.<BR>Perhaps the answer lies in infusion; I will attempt to bind Salis Mundus to the Thaumium Components though an infusion ritual in order to increase their magical affinity.<BR>The magical powder, using the right essentia as a catalyst should increase the natural magical resonance of the metal, allowing better magical conductivity.
+research.THAUMIUMCASTERGAUNTLETS.stage.4=Success! The infusion has raised the vis casting efficiency to almost double that of the gold components. These new magically-activated components should assist in creating a fine casting gauntlet indeed. 
+research.THAUMIUMCASTERGAUNTLETS.addendum.1=I can now install Gold and Activated Thaumium Resonators, in lieu of ironbound Vis Resonators, in my new Thaumium Caster's Gauntlets; this should improve their spellcasting recharge time somewhat, and in the case of the thaumium resonators give a bit of extra vis discount to my casts as well. 
+research.THAUMIUMCASTERGAUNTLETS.addendum.2=I should now also be able to install Activated Void Metal Resonators in my Thaumium Caster's Gauntlets; This should improve their casting time significantly.
+
+research.VOIDCASTERGAUNTLETS.title=Void Metal Caster's Gauntlets
+research.VOIDCASTERGAUNTLETS.stage.1=With this strange new metal comes the potential for strange new possibilities.<BR>I should use my previous designs and attempt to craft a set of components from void metal, using brass again as a structural element.
+research.VOIDCASTERGAUNTLETS.stage.2=It would seem that void metal is only marginally better than iron at vis transfer, however I did notice something that I didn't believe at first.<BR> After further testing, I found that the components did in fact have a small effect on the recharge rate of the caster I built for my experiments. Barely noticeable, but it did indeed reduce it. If only it was more vis efficient...<BR>I'll take a page from my experiments with the thaumium components, and combine them with Salis Mundus and the correct catalytic essentia.<BR>Being made of void metal, I honestly don't know what's going to happen, but fingers crossed it's something beneficial.  
+research.VOIDCASTERGAUNTLETS.stage.3=The final result is interesting, if somewhat peculiar.<BR>It seems magically activating the void metal in the same way as the thaumium multiplied it's already existing attribues, raising the vis efficiency to that of gold, but improving the casting recharge time sightly as well! As is to be expected, a slight tingling can be felt from the gauntlet when worn, however this only bothers me if I pay attention to it.
+research.VOIDCASTERGAUNTLETS.addendum.1=I can now install Gold and Activated Thaumium Resonators, in lieu of ironbound Vis Resonators, in my new Void Metal Caster's Gauntlets; in the case of the thaumium resonators, this should give me a bit more vis discount to my spells. 
+research.VOIDCASTERGAUNTLETS.addendum.2=I should now also be able to install Activated Void Metal Resonators in my Void Metal Caster's Gauntlets; This should improve my casting time greatly, at reduced vis efficiency compared to using thaumium components. Oh well, perhaps the tradeoff is worth it; only time will tell.
+
+research.BETTERRESONATORS.title=Better Vis Resonators
+research.BETTERRESONATORS.stage.1=Using the foci I've made for my gauntlet, I've noticed an ever-increasing recharge time before the gauntlet is ready to fire another spell. This seems directly proportional to the complexity of the last spell fired and stays constant regardless of whether the focus last used is switched out or not; the gauntlet itself seems to need to 'recharge' after firing off more complex spells.<BR>I am endeavouring to see if there is a way to shorten this cooldown time. However the only primary component of the gauntlet I've not experimented with is the Vis Resonator, which draws vis through the internal components and then allows the gauntlet to utilize the focus, casting the spell. Until now I've only ever made the casing for the quartz crystal in iron plate, but what if I were to use other metals? Having now analysed my ironbound resonators, I might try crafting them using gold and this new thaumium I've discovered.
+research.BETTERRESONATORS.stage.2=My hunch appears correct; it seems there is a slightly reduced recharge time between vis resonators made using gold and thaumium as opposed to iron.<BR>However, thaumium appears to be only slightly better at this task than gold, in roughly equal proportion to the vis channelling efficiency of thaumium components versus gold.<BR>Perhaps if I were to take a page out of my previous experiences with thaumium, and magically imbue the resonator via infusion, I could enhance its magical qualities...
+research.BETTERRESONATORS.stage.3=Again, my hypothesis is proven correct and via infusion I have managed to quicken the recharge time of the gauntlet in which this new magically activated thaumium resonator is used. Along with double the recharge reduction benefit of a gold resonator, it seems to also reduce the casting cost of spells a little bit more as well, likely a result of the thaumaturgical activation of the thaumium.<BR> Strictly speaking, the reduction isn't much but it is proportionate to the complexity of the spell; meaning larger spells will see larger absolute reductions compared to smaller ones.<BR>Still, the sightly quicker casting speed might mean the difference between life and death one day, and I'm certainly not going to look a gift-horse in the mouth.
+
+research.VOIDRESONATORS.title=Void Metal Resonators
+research.VOIDRESONATORS.stage.1=With new materials comes new possibilities to explore.<BR>I will create a vis resonator using this new void metal, and magically activate it through infusion. If I'm right, this should increase the recharge power of any gauntlet it's fixed into by a considerable margin.
+research.VOIDRESONATORS.stage.2=With an Activated Void Metal Resonator installed in a gauntlet, I've managed to double the recharge efficiency of the activated thaumium resonator, at the cost of the thaumium resonator's further vis discount. A worthy trade-off I'd say.
+
+//tooltips
+tooltip.cooldownreduction=Cooldown reduction
+

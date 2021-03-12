@@ -1,0 +1,6 @@
+{
+    "parent": "thaumcraft:item/caster_gauntlet",
+    "textures": {
+        "skin": "gauntletresearch:entity/armor/caster_void_metal"
+    }
+}

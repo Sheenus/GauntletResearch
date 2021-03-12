@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",    
+    "overrides": [
+        {
+            "predicate": { "focus": 0 },
+            "model": "gauntletresearch:item/void_metal_caster_model"
+        },
+        {
+            "predicate": { "focus": 1 },
+            "model": "gauntletresearch:item/void_metal_caster_focus_model"
+        }
+    ]
+}

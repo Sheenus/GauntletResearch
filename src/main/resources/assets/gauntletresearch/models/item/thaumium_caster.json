@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",    
+    "overrides": [
+        {
+            "predicate": { "focus": 0 },
+            "model": "gauntletresearch:item/thaumium_caster_model"
+        },
+        {
+            "predicate": { "focus": 1 },
+            "model": "gauntletresearch:item/thaumium_caster_focus_model"
+        }
+    ]
+}

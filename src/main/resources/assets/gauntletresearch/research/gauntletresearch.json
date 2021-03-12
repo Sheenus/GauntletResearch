@@ -1,0 +1,169 @@
+{
+    "entries" :[
+        {
+        "key": "GOLDCASTERGAUNTLETS",
+        "name": "research.GOLDCASTERGAUNTLETS.title",
+        "icons": [ "gauntletresearch:gold_caster" ],
+        "category": "AUROMANCY",
+        "parents": [ "BASEAUROMANCY", "UNLOCKINFUSION", "!CASTERBASIC" ],
+        "meta": [ "SPIKY", "HIDDEN" ],
+        "location": [ 2,-2 ],
+        "stages": [
+                {
+                    "text": "research.GOLDCASTERGAUNTLETS.stage.1",
+                    "required_item": [ "minecraft:gold_ingot;3;0", "thaumcraft:vis_resonator" ],
+                    "required_knowledge": [ "OBSERVATION;AUROMANCY;1" ]
+                },
+                {
+                    "text": "research.GOLDCASTERGAUNTLETS.stage.2",
+                    "required_item": [ "gauntletresearch:gold_plate;9;0", "thaumcraft:plate;4;1", "thaumcraft:vis_resonator;2;0" ],
+                    "required_knowledge": [ "OBSERVATION;AUROMANCY;3", "THEORY;AUROMANCY;1" ],
+                    "recipes": [ "gauntletresearch:gold_plate" ]
+                },
+                {
+                "text": "research.GOLDCASTERGAUNTLETS.stage.3",
+                "recipes": [ "gauntletresearch:gold_plate", "gauntletresearch:gold_components_recipe", "gauntletresearch:fake_gold_caster_recipe" ]
+                }
+            ],
+        "addenda": [
+                {
+                    "text": "research.GOLDCASTERGAUNTLETS.addendum.1",
+                    "recipes":  [ "gauntletresearch:fake_gold_caster_gold_resonator_recipe", "gauntletresearch:fake_gold_caster_thaumium_resonator_recipe" ],
+                    "required_research": [ "BETTERRESONATORS" ]
+                },
+                {
+                    "text": "research.GOLDCASTERGAUNTLETS.addendum.2",
+                    "recipes":  [ "gauntletresearch:fake_gold_caster_void_metal_resonator_recipe" ],
+                    "required_research": [ "VOIDRESONATORS" ]
+                }
+            ]   
+        },
+        {
+        "key": "THAUMIUMCASTERGAUNTLETS",
+        "name": "research.THAUMIUMCASTERGAUNTLETS.title",
+        "icons": [ "gauntletresearch:thaumium_caster" ],
+        "category": "AUROMANCY",
+        "parents": [ "GOLDCASTERGAUNTLETS", "METALLURGY", "INFUSION"],
+        "location": [ 2,-4 ],
+        "stages": [
+                {
+                    "text": "research.THAUMIUMCASTERGAUNTLETS.stage.1",
+                    "required_item": [ "thaumcraft:plate;3;0", "thaumcraft:plate;3;1", "thaumcraft:plate;6;2", "thaumcraft:vis_resonator;2;0" ],
+                    "required_knowledge": [ "OBSERVATION;AUROMANCY;3", "THEORY;AUROMANCY;1" ]
+                },
+                {
+                    "text": "research.THAUMIUMCASTERGAUNTLETS.stage.2",
+                    "required_craft": [ "gauntletresearch:components;1;1" ],
+                    "required_knowledge": [ "OBSERVATION;AUROMANCY;1" ],
+                    "recipes": [ "gauntletresearch:thaumium_components_recipe" ]
+                },
+                {
+                    "text": "research.THAUMIUMCASTERGAUNTLETS.stage.3",
+                    "required_craft": [ "gauntletresearch:components_activated;1;0" ],
+                    "required_knowledge": [ "THEORY;AUROMANCY;1", "OBSERVATION;AUROMANCY;1" ],
+                    "recipes": [ "gauntletresearch:thaumium_components_recipe", "gauntletresearch:activated_thaumium_components_recipe" ]
+                },
+                {
+                    "text": "research.THAUMIUMCASTERGAUNTLETS.stage.4",
+                    "recipes": [ "gauntletresearch:thaumium_components_recipe", "gauntletresearch:activated_thaumium_components_recipe", "gauntletresearch:fake_thaumium_caster_recipe" ]
+                }
+            ],
+        "addenda": [
+                {
+                    "text": "research.THAUMIUMCASTERGAUNTLETS.addendum.1",
+                    "recipes":  [ "gauntletresearch:fake_thaumium_caster_gold_resonator_recipe", "gauntletresearch:fake_thaumium_caster_thaumium_resonator_recipe" ],
+                    "required_research": [ "BETTERRESONATORS" ]
+                },
+                {
+                    "text": "research.GOLDCASTERGAUNTLETS.addendum.2",
+                    "recipes":  [ "gauntletresearch:fake_thaumium_caster_void_metal_resonator_recipe" ],
+                    "required_research": [ "VOIDRESONATORS" ]
+                }
+            ]
+        },
+        {
+        "key": "VOIDCASTERGAUNTLETS",
+        "name": "research.VOIDCASTERGAUNTLETS.title",
+        "icons": [ "gauntletresearch:void_metal_caster" ],
+        "category": "ELDRITCH",
+        "parents": [ "GOLDCASTERGAUNTLETS", "BASEELDRITCH" ],
+        "location": [ 2,-2 ],
+        "stages": [
+                {
+                    "text": "research.VOIDCASTERGAUNTLETS.stage.1",
+                    "required_knowledge": [ "OBSERVATION;ELDRITCH;1", "OBSERVATION;AUROMANCY;1", "THEORY;ELDRITCH;1", "THEORY;AUROMANCY;1" ],
+                    "required_craft": [ "gauntletresearch:components;1;2" ],
+                    "recipes": [ "gauntletresearch:void_metal_components_recipe" ]
+                },
+                {
+                    "text": "research.VOIDCASTERGAUNTLETS.stage.2",
+                    "required_knowledge": [ "THEORY;ELDRITCH;1", "THEORY;AUROMANCY;1" ],
+                    "required_craft": [ "gauntletresearch:components_activated;1;1" ],
+                    "recipes": [ "gauntletresearch:void_metal_components_recipe", "gauntletresearch:activated_void_metal_components_recipe" ]
+                },
+                {
+                    "text": "research.VOIDCASTERGAUNTLETS.stage.3",
+                    "recipes": [ "gauntletresearch:void_metal_components_recipe", "gauntletresearch:activated_void_metal_components_recipe", "gauntletresearch:fake_void_metal_caster_recipe" ]
+                } 
+            ],
+        "addenda": [
+                {
+                    "text": "research.VOIDCASTERGAUNTLETS.addendum.1",
+                    "recipes":  [ "gauntletresearch:fake_void_metal_caster_gold_resonator_recipe", "gauntletresearch:fake_void_metal_caster_thaumium_resonator_recipe" ],
+                    "required_research": [ "BETTERRESONATORS" ]
+                },
+                {
+                    "text": "research.VOIDCASTERGAUNTLETS.addendum.2",
+                    "recipes":  [ "gauntletresearch:fake_void_metal_caster_void_metal_resonator_recipe" ],
+                    "required_research": [ "VOIDRESONATORS" ]
+                }
+            ]
+        },
+        {
+        "key": "BETTERRESONATORS",
+        "name": "research.BETTERRESONATORS.title",
+        "icons": [ "gauntletresearch:resonator;1;0", "gauntletresearch:resonator;1;1" ],
+        "category": "AUROMANCY",
+        "parents": [ "THAUMIUMCASTERGAUNTLETS", "~FOCUSADVANCED", "!VISRESONATOR" ],
+        "location": [ 2,-6 ],
+        "meta": [ "SPIKY", "HIDDEN" ],
+        "stages": [
+                {
+                    "text": "research.BETTERRESONATORS.stage.1",
+                    "required_item": [ "gauntletresearch:gold_plate;3;0", "thaumcraft:plate;3;2", "minecraft:quartz;6;0"],
+                    "required_knowledge": [ "OBSERVATION;AUROMANCY;3", "THEORY;AUROMANCY;1" ]
+                },
+                {
+                    "text": "research.BETTERRESONATORS.stage.2",
+                    "required_craft": [ "gauntletresearch:resonator_activated;1;0" ],
+                    "required_knowledge": [ "THEORY;AUROMANCY;1" ],
+                    "recipes": [ "gauntletresearch:gold_resonator_recipe", "gauntletresearch:thaumium_resonator_recipe", "gauntletresearch:activated_thaumium_resonator_recipe" ]
+                },
+                {
+                    "text": "research.BETTERRESONATORS.stage.3",
+                    "recipes": [ "gauntletresearch:gold_resonator_recipe", "gauntletresearch:thaumium_resonator_recipe", "gauntletresearch:activated_thaumium_resonator_recipe" ]
+                }
+            ]
+        },
+        {
+            "key": "VOIDRESONATORS",
+        "name": "research.VOIDRESONATORS.title",
+        "icons": [ "gauntletresearch:resonator;1;2" ],
+        "category": "ELDRITCH",
+        "parents": [ "BETTERRESONATORS", "BASEELDRITCH" ],
+        "location": [ -2,-2 ],
+        "stages": [
+                {
+                    "text": "research.VOIDRESONATORS.stage.1",
+                    "required_knowledge": [ "THEORY;ELDRITCH;1", "THEORY;AUROMANCY;1" ],
+                    "required_craft": [ "gauntletresearch:resonator_activated;1;1" ],
+                    "recipes": [ "gauntletresearch:void_metal_resonator_recipe", "gauntletresearch:activated_void_metal_resonator_recipe" ]
+                },
+                {
+                    "text": "research.VOIDRESONATORS.stage.2",
+                    "recipes": [ "gauntletresearch:void_metal_resonator_recipe", "gauntletresearch:activated_void_metal_resonator_recipe" ]
+                }
+            ]
+        }
+    ]
+}

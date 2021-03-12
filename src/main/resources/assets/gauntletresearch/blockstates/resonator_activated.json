@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "thaumium": {
+            "model": "forge:item-layer", 
+            "transform": "forge:default-item",
+            "textures": {
+                "layer0": "gauntletresearch:items/thaumium_resonator_activated"
+            }
+        },
+        "void_metal": {
+            "model": "forge:item-layer", 
+            "transform": "forge:default-item",
+            "textures": {
+                "layer0": "gauntletresearch:items/void_metal_resonator_activated"
+            }
+        }
+    }
+}
